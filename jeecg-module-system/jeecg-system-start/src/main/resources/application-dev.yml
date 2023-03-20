@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8823
   tomcat:
     max-swallow-size: -1
   error:
@@ -7,7 +7,7 @@ server:
     include-stacktrace: ALWAYS
     include-message: ALWAYS
   servlet:
-    context-path: /jeecg-boot
+    context-path: /kaltsit
   compression:
     enabled: true
     min-response-size: 1024
@@ -142,7 +142,7 @@ spring:
           #driver-class-name: com.mysql.cj.jdbc.Driver
   #redis 配置
   redis:
-    database: 0
+    database: 2
     host: 127.0.0.1
     port: 6379
     password: ''
